@@ -26,12 +26,13 @@ main{
     margin: auto;
     background-color: #fff;
     width: 270px;
-    height: 80vh;
+    height: 520px;
     text-align: center;
     border-radius: 20px;
 }
 section{
     margin: auto;
+
 }
 p#welcome{
     padding: 10px;
@@ -58,9 +59,6 @@ input{
     border-radius: 10px;
     height: 30px;
     box-shadow: none;
-}
-input::selection{
-    background-color: #fff;
 }
 p#enter{
     background-color: #53AAA7;
