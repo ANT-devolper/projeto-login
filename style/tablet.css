@@ -4,14 +4,20 @@ body{
     background: linear-gradient( to top, #49a09d, #5f2c82);
     height: 98vh;
 }
+#welcome{
+    font-size: 0.2em;
+}
 main{
     width: 60vw;
     height: 280px;
 }
-img{
+div#image{
     float: left;
-    display: inline;
-}
-h1, p, input, #button{
-    display: inline-block;
+    width: 30%;
+    height: 280px;
+    margin: 0px;
+
+    border-radius: 20px 0px 0px 20px;
+    display: block;
+
 }
