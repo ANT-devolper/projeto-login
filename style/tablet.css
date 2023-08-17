@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+body{
+    background: linear-gradient( to top, #49a09d, #5f2c82);
+    height: 98vh;
+}
+main{
+    width: 60vw;
+    height: 300px;
+    
+
+}
+img{
+    display: inline;
+}
+h1, p, input, #button{
+    display: inline-block;
+}
