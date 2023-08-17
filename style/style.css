@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+/* 
+paleta de cores
+azul: #49a09d
+lilas: #5f2c82
+*/
+*{
+    margin-top: 5px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: #5f2c82;
+}
+#image{
+    background: url(../imagens/pattern.jpg);
+    margin: auto;
+    height: 150px;
+    margin-top: 50px;
+}
+main{
+    margin: auto;
+    background-color: #fff;
+    width: 270px;
+    height: 80vh;
+    text-align: center;
+    border-radius: 20px;
+}
+section{
+    margin: auto;
+}
+p.input{
+    background-color: #5f2c82;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+i{
+    color: #fff;
+    height: 0px;
+}
+i#mail{
+    color: #53AAA7;
+
+}
+input{
+    background-color: #94CFCD;
+    display: inline-block;
+    border-radius: 10px;
+    height: 30px;
+    box-shadow: none;
+}
+p#enter{
+    background-color: #53AAA7;
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
+    color: #fff;
+    margin: auto;
+}
+p#enter:hover{
+    background-color: #347270;
+}
+p#esqueci{
+    border: 1px solid #53AAA7;
+    width: 200px;
+    margin-top: 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
