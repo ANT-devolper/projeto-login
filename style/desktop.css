@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to top, #49a09d, #5f2c82 );
+}
+section#login{
+    height: 350px;
+    width: 950px;
+}
+#image{
+    float: right;
+    width: 40%;
+    height: 100%;
+    border-radius: 0px 20px 20px 0px;
+}
+#form{
+    float: left;
+    width: 60%;
+}
+input.info{
+    width: 92%;
+}
+#enter{
+    width: 550px;
+}
+#esqueci{
+    padding: 7px 204px;
+}

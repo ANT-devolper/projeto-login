@@ -1,23 +1,30 @@
 @charset "UTF-8";
 
 body{
-    background: linear-gradient( to top, #49a09d, #5f2c82);
-    height: 98vh;
+    background-image: linear-gradient(to top, #49a09d, #5f2c82 );
 }
-#welcome{
-    font-size: 0.2em;
+section#login{
+    height: 300px;
+    width: 620px;
 }
-main{
-    width: 60vw;
-    height: 280px;
-}
-div#image{
+#image{
     float: left;
     width: 30%;
-    height: 280px;
-    margin: 0px;
-
+    height: 100%;
     border-radius: 20px 0px 0px 20px;
-    display: block;
-
+}
+#form{
+    width: 70%;
+    height: 100%;
+    float: right;
+}
+input.info{
+    width: 89%;
+    transform: translate();
+}
+#enter{
+    width: 414px;
+}
+a{
+    padding: 7px 136px;
 }
