@@ -13,19 +13,18 @@
     <main>
         <section id="login">
             <div id="image">
-                
             </div>
             <div id="form">
                 <h1>Login</h1>
                 <p id="welcome">Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
                 <form action="" method="post">
-                    <p class="input"><label for="ilogin"><i class="material-symbols-sharp">person</i></label><input type="email" name="login" id="ilogin" placeholder="Seu e-mail" onclick="Click()"></p>
-                    <p class="input"><label for="ipass"><i class="material-symbols-outlined">key</i></label><input type="password" name="pass" id="ipass" placeholder="Sua senha"></p>
+                    <p class="input"><label for="ilogin"><i class="material-symbols-sharp">person</i></label><input type="email" name="login" id="ilogin" placeholder="Seu e-mail" onclick="Click()" class="info"></p>
+                    <p class="input"><label for="ipass"><i class="material-symbols-outlined">key</i></label><input type="password" name="pass" id="ipass" placeholder="Sua senha" class="info"></p>
                 </form>
-            </div>
-            <div id="button">
-                <p id="enter" onclick="Click()">Entrar</p>
-                <p id="esqueci"><a href="#">Esqueci a senha <i id="mail" class="material-symbols-outlined">mail</i></a></p>
+                <div id="button">
+                    <p  onclick="Click()"><input type="submit" value="Entrar" id="enter"></p>
+                    <a href="#" id="esqueci">Esqueci a senha <i id="mail" class="material-symbols-outlined">mail</i></a>
+                </div>
             </div>
         </section>
     </main>
