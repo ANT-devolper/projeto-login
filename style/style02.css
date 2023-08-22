@@ -28,11 +28,13 @@ section#login{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     background-color: #fff;
     width: 250px;
     height: 515px;
     border-radius: 20px;
+    transition: width 0.5s, height 0.5s;
+    transition-timing-function: ease;
+    transform: translate(-50%, -50%);
 }
 #image{
     background: url(../imagens/pattern.jpg) no-repeat;
@@ -61,8 +63,7 @@ p{
 }
 i{
     color: #fff;
-    height: 50px;
-    transform: translate(10px);
+    transform: translate(10px );
 }
 i#mail{
     color: #49a09d;
@@ -75,6 +76,9 @@ input.info{
     border: 0px;
     transform: translate(20px);
 }
+input.info:focus-within{
+    background-color: #fff;
+}
 #button{
     text-align: center;
 }
@@ -85,6 +89,7 @@ input.info{
     border-radius: 8px;
     width: 230px;
     border: 1px solid #49a09d;
+    cursor: pointer;
 }
 #enter:hover{
     background-color: #225c5a;

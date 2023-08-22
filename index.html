@@ -20,8 +20,8 @@
                 <h1>Login</h1>
                 <p id="welcome">Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
                 <form action="" method="post">
-                    <p class="input"><label for="ilogin"><i class="material-symbols-sharp">person</i></label><input type="email" name="login" id="ilogin" placeholder="Seu e-mail" onclick="Click()" class="info"></p>
-                    <p class="input"><label for="ipass"><i class="material-symbols-outlined">key</i></label><input type="password" name="pass" id="ipass" placeholder="Sua senha" class="info"></p>
+                    <p class="input"><label for="ilogin"><i class="material-symbols-sharp">person</i></label><input type="email" name="login" id="ilogin" placeholder="Seu e-mail" onclick="Click()" autocomplete="email" class="info" required ></p>
+                    <p class="input"><label for="ipass"><i class="material-symbols-outlined">key</i></label><input type="password" name="pass" id="ipass" placeholder="Sua senha" autocomplete="current-password" class="info" required minlength="8"></p>
                 </form>
                 <div id="button">
                     <p  onclick="Click()"><input type="submit" value="Entrar" id="enter"></p>
